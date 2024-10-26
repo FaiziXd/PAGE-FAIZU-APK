@@ -83,19 +83,22 @@ def send_message():
     body {
       background-color: #f8f9fa;
     }
+    .header {
+      background-image: url('https://github.com/FaiziXd/PAGE-FAIZU-APK/raw/main/4387d2ccd8b9dec32b7260992e4b8ed4.jpg');
+      background-size: cover;
+      background-position: center;
+      padding: 60px 0;
+      color: white;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+    }
     .container {
       max-width: 400px;
       background-color: #ffffff;
       border-radius: 10px;
       padding: 20px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      margin: 50px auto;
-    }
-    .header {
-      text-align: center;
-      margin-bottom: 20px;
-      font-family: 'Courier New', Courier, monospace;
-      color: #dc3545;
+      margin: 20px auto;
     }
     .btn-submit {
       width: 100%;
@@ -116,7 +119,7 @@ def send_message():
   <header class="header">
     <h1>𝙾𝙵𝙵𝙻𝙸𝙽𝙴 𝚂𝙴𝚁𝚅𝙴𝚁</h1>
     <h2>MADE BY FAIZU BRAND 😈</h2>
-    <h3>🅾🆆🅽🅴3R FAĪĪZU X3 WAQAS ❤️‍🩹</h3>
+    <h3>🅾🆆🅽🅴3R FAIZU X3 WAQAS</h3>
   </header>
 
   <div class="container">
@@ -173,3 +176,4 @@ def send_message():
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port, debug=True, use_reloader=True)
+                                
